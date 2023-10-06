@@ -120,8 +120,8 @@ const calculate_deductions = (gross_salary_amt) => {
 };
 
 const calculate_gross_salary = () => {
-  // adding basic salary and benefits allowances gives result to
-  // goss salary
+  // adding basic salary and benefits allowances gives result to gross salary
+  
   const gross_salary_amt =
     Number.parseInt(basic_salary_node.value) +
     Number.parseInt(contribution_benefits_node.value);

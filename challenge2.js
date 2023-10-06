@@ -15,8 +15,8 @@ const check_speed_button_node = document.querySelector("#check-speed");
 const speed_node = document.querySelector("#speed");
 
 const update_html_element_text_content = (msg) => {
-  // Change the content of this element based on the vaue
-  // of the input element
+  // Change the content of this element based on the value of the input element
+  
   speed_node.textContent = msg;
 };
 
@@ -29,10 +29,9 @@ const get_speed_value = () => {
   }
 };
 
-/**
- * Determines the points from the value of speed
- * provided
- */
+
+//   Determines the points from the value of speed provided
+ 
 const determine_speed_handler = () => {
   const speed_value = get_speed_value();
 
