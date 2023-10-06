@@ -19,13 +19,13 @@ const get_mark = () => {
   }
 };
 
-/**
- * Evaluates a grade based on provided mark
- */
+
+//   Evaluates a grade based on the provided mark
+ 
 const determine_grade_handler = () => {
   const mark = get_mark();
 
-  // validate mark range
+  // validate the mark range
   if (mark >= 0 && mark <= 100) {
     if (mark > 79 && mark <= 100) {
       print_output("A");
@@ -44,8 +44,8 @@ const determine_grade_handler = () => {
 };
 
 const print_output = (msg) => {
-  // Change the content of this element based on the vaue
-  // of the input element
+  // Change the content of this element based on the value of the input element
+  
   grade_node.textContent = msg;
 };
 
